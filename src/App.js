@@ -3,7 +3,8 @@ import { useState } from 'react'
 function App() {
 
   const api = {
-    key: 'add7fbbb2a529e622bc5a8865ad8c366',
+    //api key can be created at https://openweathermap.org/api
+    key: '',  
     base: 'https://api.openweathermap.org/data/2.5/'
   }
 const [query, setQuery] = useState('')
